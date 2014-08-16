@@ -284,7 +284,7 @@ void beginEthernet(unsigned long baud) {
 
 #endif	// defined (1280)
 
-#if defined(__AVR_ATmega64__)
+#if defined(__AVR_ATmega64__) || defined(__AVR_ATmega2561__)
 
 #define beginSerial Serial1.begin
 #define serialAvailable Serial1.available
