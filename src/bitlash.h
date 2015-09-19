@@ -495,7 +495,7 @@ void initlbuf(void);
 
 // String value buffer size
 #ifdef AVR_BUILD
-  #define STRVALSIZE 120
+  #define STRVALSIZE 512
 #else
   #define STRVALSIZE 512
 #endif
